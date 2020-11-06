@@ -1,0 +1,8 @@
+querySelector - sẽ trả về phần tử đầu tiên trong tập hợp các kết quả được tìm thấy bởi CSS selector được cung cấp khi gọi phương thức.
+
+querySelectorAll - là phương thức JavaScript truy lục tất cả các phần tử trong tài liệu khớp với một bộ chọn CSS được chỉ định, giá trị trả về một đối tượng NodeList tĩnh (không phải NodeList thực). Đối tượng NodeList đại diện cho một mảng các nút phần tử, các nút có thể được truy cập bằng số chỉ mục – chỉ số bắt đầu bằng 0.
+ Nếu như phương thức querySelector() chỉ trả về phần tử đầu tiên thì querySelectorAll() trả về tất cả các phần tử khớp với bộ chọn.
+ 
+getElementById
+getElementsByClassName
+getElementsByTagName

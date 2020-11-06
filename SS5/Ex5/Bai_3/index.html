@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h1 {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+
+  <meme-container
+    photo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT3Yze1tEzNbFyDrmaRD5Qg6xiyiAjyguYlyA&usqp=CAU"
+    name="gi do" category="2020/11/020" price="hahahahaha" chapters="1">
+  </meme-container>
+  <meme-container></meme-container>
+</body>
+
+<template id="meme-container-template">
+  <link rel="stylesheet" href="">
+  <style>
+    .meme-photo {
+      width: 250px;
+      height: 200px;
+    }
+
+    .meme-name {
+      text-align: right;
+      margin-top: 3px;
+
+    }
+
+    .meme-container {
+      width: 250px;
+      height: 300px;
+      font-size: 15px;
+    }
+
+
+    .meme-category {
+      border: 1px solid gray;
+      border-radius: 2px;
+      margin-top: 3px;
+      width: 30%;
+      text-align: center;
+      padding: 1px;
+    }
+
+    .meme-price {
+      text-align: right;
+      margin-top: 2px;
+    }
+
+    .meme-chapters {
+      text-align: right;
+      margin-top: 2px;
+    }
+  </style>
+  <div class="meme-container">
+    <img src="https://i.pinimg.com/736x/08/04/9b/08049bfee23c9b780ef405d149ecc2a5.jpg" alt="" class="meme-photo">
+    <div class="meme-name">gi doasdad</div>
+    <div class="meme-category">2021/10/30</div>
+    <div class="meme-price">asdasd</div>
+    <div class="meme-chapters">asdasd</div>
+  </div>
+
+</template>
+
+<script src="./js/app.js" type="module"></script>
+
+</html>
